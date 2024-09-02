@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Person
-{
+{//program for display person name and age
     static Scanner scanner = new Scanner(System.in);
     private String name;
     private int age;
