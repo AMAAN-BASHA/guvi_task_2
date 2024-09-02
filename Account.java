@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Account {
+public class Account {//program for deposit and withdraw the amount and display the balance
     private double balance;
         public Account() {
         this.balance = 0.0;
@@ -29,9 +29,9 @@ public class Account {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the amount to be deposited");
-        account1.deposit(scanner.nextInt());
+        account1.deposit(scanner.nextDouble());
         System.out.println("Enter the amount to be withdrawed");
-        account1.withdraw(scanner.nextInt());
+        account1.withdraw(scanner.nextDouble());
         account1.displayBalance();
     }
 }
