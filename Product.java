@@ -14,7 +14,7 @@ class Product {// program for calculate and return the total amount spent on all
 class XYZ {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the total number's of are there in the pid : ");
+        System.out.println("Enter the total number's of are there : ");
         int n = scanner.nextInt();
         Product[] products = new Product[n];
 
