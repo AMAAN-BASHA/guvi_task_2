@@ -17,7 +17,7 @@ public class Account {//program for deposit and withdraw the amount to  display 
 
 
     public void displayBalance() {
-        System.out.printf("Balance: %.2f\n", balance);
+        System.out.printf("Balance: %.2f", balance);
     }
 
     public static void main(String[] args) {
