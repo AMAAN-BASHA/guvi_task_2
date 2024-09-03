@@ -1,11 +1,8 @@
 import java.util.Scanner;
-public class Account {//program for deposit and withdraw the amount and display the balance
+public class Account {//program for deposit and withdraw the amount to  display the balance
     private double balance;
         public Account() {
         this.balance = 0.0;
-    }
-        public Account(double initialBalance) {
-        this.balance = initialBalance;
     }
         public void deposit(double amount) {
         if (amount > 0) {
